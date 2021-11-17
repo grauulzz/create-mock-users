@@ -19,10 +19,11 @@ public class PopulateData {
             .phone(faker.phoneNumber().phoneNumber())
             .address(faker.address().fullAddress())
             .build();
-    User realUser = new User.UserBuilder(currentDate, "Will", "Reynolds")
-            .age(28)
-            .phone("512-214-7095")
-            .address("512 West San Antonio Street")
+
+    User realUser = new User.UserBuilder(currentDate, "", "")
+            .age(0)
+            .phone("")
+            .address("")
             .build();
 
 
